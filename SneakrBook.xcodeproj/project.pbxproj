@@ -16,6 +16,8 @@
 		E458AFCA19F94D47009B274B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E458AFC919F94D47009B274B /* Images.xcassets */; };
 		E458AFCD19F94D47009B274B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E458AFCB19F94D47009B274B /* LaunchScreen.xib */; };
 		E458AFD919F94D47009B274B /* SneakrBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E458AFD819F94D47009B274B /* SneakrBookTests.m */; };
+		E458AFED19F97C8F009B274B /* Shoe.m in Sources */ = {isa = PBXBuildFile; fileRef = E458AFEC19F97C8F009B274B /* Shoe.m */; };
+		E458AFF019F97C90009B274B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E458AFEF19F97C90009B274B /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,10 @@
 		E458AFD219F94D47009B274B /* SneakrBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SneakrBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E458AFD719F94D47009B274B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E458AFD819F94D47009B274B /* SneakrBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SneakrBookTests.m; sourceTree = "<group>"; };
+		E458AFEB19F97C8F009B274B /* Shoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shoe.h; sourceTree = "<group>"; };
+		E458AFEC19F97C8F009B274B /* Shoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shoe.m; sourceTree = "<group>"; };
+		E458AFEE19F97C90009B274B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E458AFEF19F97C90009B274B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,10 @@
 				E458AFC919F94D47009B274B /* Images.xcassets */,
 				E458AFCB19F94D47009B274B /* LaunchScreen.xib */,
 				E458AFBD19F94D47009B274B /* SneakrBook.xcdatamodeld */,
+				E458AFEE19F97C90009B274B /* Person.h */,
+				E458AFEF19F97C90009B274B /* Person.m */,
+				E458AFEB19F97C8F009B274B /* Shoe.h */,
+				E458AFEC19F97C8F009B274B /* Shoe.m */,
 				E458AFB619F94D47009B274B /* Supporting Files */,
 			);
 			path = SneakrBook;
@@ -229,8 +239,10 @@
 			files = (
 				E458AFC519F94D47009B274B /* DetailViewController.m in Sources */,
 				E458AFC219F94D47009B274B /* MasterViewController.m in Sources */,
+				E458AFF019F97C90009B274B /* Person.m in Sources */,
 				E458AFBC19F94D47009B274B /* AppDelegate.m in Sources */,
 				E458AFB919F94D47009B274B /* main.m in Sources */,
+				E458AFED19F97C8F009B274B /* Shoe.m in Sources */,
 				E458AFBF19F94D47009B274B /* SneakrBook.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
